@@ -1,0 +1,81 @@
+@import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
+
+body {
+  font-family: 'Arial';
+}
+
+h1, h2, h3 {
+  font-family: 'Arial';
+  font-weight: normal;
+  color: black;
+}
+
+h1 {
+  color: white;
+}
+
+.remark-slide-content {
+  background-image: url(images/zds-background-white.png);
+  background-size: cover;
+  font-size: 25px;
+  padding: 0em 3em 0em 3em;
+}
+.first, .last {
+  background-image: url(images/zds-background.png);
+}
+
+.remark-slide-content h1 {
+  font-size: 48px;
+  padding-bottom: 30px;
+}
+
+.remark-slide-number {
+  color: #ea7c6e;
+  opacity: unset;
+  font-size: 20px;
+  bottom: 10px;
+  position: absolute;
+  right: 20px;
+}
+
+.remark-code, .remark-inline-code {
+  font-family: 'Ubuntu Mono';
+}
+
+table {
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 10px;
+  border: 1px solid #52595d;
+}
+
+/* overwrite some defaults for first and last slide */
+.first {
+  color: #52595d;
+  padding-top: 320px;
+}
+.first img {
+  position: absolute;
+  left: 20px;
+  top: 20px;
+  height: 260px;
+}
+.first h1 {
+  color: #f3f3f3;
+  padding: 0px;
+  margin: 0px;
+  font-size: 80px;
+}
+.first .author {
+  color: #ea7c6e;
+  text-transform: uppercase;
+}
+.first .remark-slide-number {
+  display: none;
+}
+
+.last .remark-slide-number {
+  display: none;
+}
