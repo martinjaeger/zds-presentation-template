@@ -14,6 +14,15 @@ h1 {
   color: white;
 }
 
+.remark-slide-content h3 {
+  padding: 0px;
+  margin: 0px;
+}
+
+.remark-slide-content li {
+  padding-top: 0.5em;
+}
+
 .remark-slide-content {
   background-image: url(images/zds-background-white.png);
   background-size: cover;
@@ -78,4 +87,14 @@ th, td {
 
 .last .remark-slide-number {
   display: none;
+}
+
+/* Two-column layout */
+.left-column {
+  width: 45%;
+  float: left;
+}
+.right-column {
+  width: 45%;
+  float: right;
 }
