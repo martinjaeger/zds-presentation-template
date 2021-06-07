@@ -22,6 +22,12 @@ Afterwards open [http://0.0.0.0:8000](http://0.0.0.0:8000) in your browser.
 
 You can't just open the HTML file in a browser, as it will not be able to load the content.md file.
 
+## PDF generation
+
+```
+decktape remark http://0.0.0.0:8000 slieds.pdf --chrome-arg=--disable-web-security --chrome-path /usr/bin/chromium
+```
+
 ## Contributing
 
 The template is still work in progress. Feel free to submit a PR if you find an issue.

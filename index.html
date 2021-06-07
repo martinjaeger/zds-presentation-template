@@ -13,7 +13,15 @@
         var url = this;
         return '<img src="' + url + '" style="width: ' + percentage + '" />';
       };
-      var slideshow = remark.create({ sourceUrl: 'content.md', ratio: "16:9" });
+      remark.macros.abs = function (percentage) {
+        var url = this;
+        return '<img src="' + url + '" style="position: absolute; top: 140px; width: ' + percentage + '" />';
+      };
+      var slideshow = remark.create({
+        sourceUrl: 'content.md',
+        countIncrementalSlides: false,
+        ratio: "16:9"
+      });
     </script>
   </body>
 </html>
